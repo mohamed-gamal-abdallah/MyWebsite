@@ -1,0 +1,160 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+.color1{
+    color: #0078FF;
+}
+
+.font-size-40px{
+    font-size: 40px;
+} 
+
+.font-size-72px{
+    font-size: 72px;
+}
+
+
+
+.main-text{
+    color: rgb(0, 174, 205);
+}
+
+.home{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/fog-landscape-mountain-range-mountains-preview.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 70vh;
+    width: 100%;
+    background-attachment: fixed; 
+}
+
+.main-box{
+    width: 30px;
+    height: 30px;
+    border-color: rgba(255, 255, 255, 0.295);
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+
+.zindex-3{
+    z-index: -3;
+}
+
+
+
+
+.line{
+   width: 120px;
+   height: 5px;
+   background-color: black;
+}
+
+.box{
+    border-color: rgba(0, 0, 0, 0.315);
+    border-width: 2px;
+    border-style: solid;
+    /* border-radius: 10px; */
+    
+}
+
+.about-img-gray{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.25);
+    transform: rotateZ(350deg);
+    z-index: -1;
+}
+
+.text-gray{
+    color: rgba(128, 128, 128, 0.7);
+}
+
+
+
+
+
+.line-mf1{
+    width: 3rem;
+    height:  0.3rem;
+    background-color: #0078FF;
+    color: #0078FF;
+}
+
+.w-ctegory{
+color: #0078FF;
+}
+
+.work-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.work-img img{
+    transition: 0.7s ;
+    }
+.work-box:hover .work-img img{
+transform: scale(1.3);
+}
+
+.w-like{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: #0078FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.img-round{
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+
+.height-card1{
+    height: 450px;
+}
+.height-card2{
+    height: 250px;
+}
+
+.img-height{
+    height: 200px;
+}
+
+
+.bgd-light{
+    background-color:#eff2f3ad ;
+}
+
+.line1{
+    width: 120px;
+    height: 5px;
+    background-color: white;
+ }
+
+/* #212529 */
+
+/* #F8F9FA */
